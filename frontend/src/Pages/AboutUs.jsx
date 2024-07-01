@@ -6,7 +6,7 @@ const AboutUs = () => {
     <>
       <Hero
         title={"Learn More About Us | Vivekanand Hospital"}
-        imageUrl={"/about.png"}
+        imageUrl={"/hero.jpg"}
       />
       <Biography imageUrl={"/whoweare.png"} />
     </>
