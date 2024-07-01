@@ -81,6 +81,7 @@ const Dashboard = () => {
             <thead>
               <tr>
                 <th>Patient</th>
+                <th>Phone Number</th>
                 <th>Date</th>
                 <th>Doctor</th>
                 <th>Department</th>
@@ -93,6 +94,7 @@ const Dashboard = () => {
                 ? appointments.map((appointment) => (
                     <tr key={appointment._id}>
                       <td>{`${appointment.firstName} ${appointment.lastName}`}</td>
+                      <td>{appointment.phone}</td>
                       <td>{appointment.appointment_date.substring(0, 16)}</td>
                       <td>{`${appointment.doctor.firstName} ${appointment.doctor.lastName}`}</td>
                       <td>{appointment.department}</td>
