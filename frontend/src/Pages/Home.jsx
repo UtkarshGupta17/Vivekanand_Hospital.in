@@ -12,9 +12,8 @@ const Home = () => {
         title={
           "Welcome to Vivekanand Hospital "
         }
-        imageUrl={"/logo.png"}
+        imageUrl={"/hero.jpg"}
       />
-      {/* <Biography imageUrl={"/about.png"} /> */}
       <Departments />
       <MessageForm />
     </>

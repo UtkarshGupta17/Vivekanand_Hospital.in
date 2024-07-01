@@ -9,7 +9,11 @@
 body {
   background: #ffffff;
 }
-
+.centered-text {
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+}
 .btn {
   padding: 7px 20px;
   border-radius: 12px;
@@ -121,8 +125,11 @@ h6 {
   padding-bottom: 120px;
   position: relative;
 }
+
 .hero .banner {
   flex: 1;
+  height: 90%;
+  margin-top: 20px;
 }
 .hero .banner h1,
 .hero .banner p {
@@ -156,7 +163,8 @@ h6 {
   overflow-y: hidden;
 }
 /* .animated-image {
-  animation: moveUpDown 1s infinite alternate ease-in-out;
+  animation: moveUpDown 1s infinite alternate ease-in-out; 
+  height: 600px;
 } */
 
 @keyframes moveUpDown {

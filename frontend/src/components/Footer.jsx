@@ -57,9 +57,13 @@ const Footer = () => {
             </div>
 
           </div>
+          
 
         </div>
-        
+        <div className="centered-text ">
+            <span>Address - Vivekanand Hospital, Balkeshwar Road, Balkeshwar, Agra - 282004</span>
+          </div>
+
       </footer>
     </>
   );

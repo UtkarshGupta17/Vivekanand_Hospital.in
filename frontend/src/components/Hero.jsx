@@ -6,14 +6,14 @@ const Hero = ({ title, imageUrl }) => {
       <div className="hero container">
 
         <div className="banner">
-          <div class="fixed-icons">
-            <a class="fixed-tel" href="tel:+9412168000" target="_blank" title="Call Now">
-              <i class="fas fa-phone-alt"></i>
+          <div className="fixed-icons">
+            <a className="fixed-tel" href="tel:+9412168000" target="_blank" title="Call Now">
+              <i className="fas fa-phone-alt"></i>
             </a>
 
           
-            <a class="fixed-whatsapp" href="https://wa.me/+9412168000" target="_blank" title="Chat on WhatsApp">
-              <i class="fab fa-whatsapp"></i>
+            <a className="fixed-whatsapp" href="https://wa.me/+9412168000" target="_blank" title="Chat on WhatsApp">
+              <i className="fab fa-whatsapp"></i>
             </a>
           </div>
           <h1>{title}</h1>
