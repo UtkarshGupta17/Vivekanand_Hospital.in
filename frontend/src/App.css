@@ -9,6 +9,41 @@
 body {
   background: #ffffff;
 }
+.container.biography {
+  padding: 10px;
+}
+.moreinfo{
+  padding: 0%;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+.banner {
+  margin-bottom: 20px;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.banner iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.banner p {
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
 .centered-text {
   text-align: center;
   font-size: large;
@@ -21,6 +56,25 @@ body {
   font-weight: bold;
   letter-spacing: 2px;
 }
+.btnbio{
+  padding: 7px 20px;
+  border-radius: 12px;
+  border: 1px solid black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+.btnbio:hover{
+  padding: 7px 20px;
+  border-radius: 12px;
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background-color: #000;
+  
+}
+
 .white-btn {
   background: #ffffff;
   color: #111;
@@ -122,7 +176,7 @@ h6 {
   display: flex;
   gap: 50px;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 90px;
   position: relative;
 }
 
@@ -536,8 +590,19 @@ nav .btn {
 nav .logoutBtn {
   background: linear-gradient(135deg, black, rgb(49, 49, 49));
 }
+
+.logoutBtn:hover{
+  background: linear-gradient(135deg, rgb(255, 255, 255), rgb(139, 139, 139));
+  color: #000;
+  border: 1px solid black;
+}
 nav .loginBtn {
   background: linear-gradient(135deg, black, rgb(49, 49, 49));
+}
+.loginBtn:hover{
+  background: linear-gradient(135deg, rgb(255, 255, 255), rgb(49, 49, 49));
+  color: #000;
+  border: 1px solid black;
 }
 nav .hamburger {
   display: none;

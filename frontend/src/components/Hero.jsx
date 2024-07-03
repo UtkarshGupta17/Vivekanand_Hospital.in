@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = ({ title, imageUrl }) => {
+const Hero = ({ title, imageUrl ,info}) => {
   return (
     <>
       <div className="hero container">
@@ -18,10 +18,7 @@ const Hero = ({ title, imageUrl }) => {
           </div>
           <h1>{title}</h1>
           <p>
-            Vivekanand Hospital is a healthcare facility dedicated to offering
-            superior services through highly qualified doctors. Our team of skilled
-            professionals is committed to delivering personalized care tailored to each
-            patient's needs. We focus on providing the best facilities at an affordable cost.
+            {info}
           </p>
         </div>
         <div className="banner">

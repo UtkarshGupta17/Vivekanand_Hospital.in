@@ -66,7 +66,7 @@ const Departments = () => {
   return (
     <>
       <div className="container departments">
-        <h2>Specialities</h2>
+        <h2>Deals in Multi-Specialities</h2>
         <Carousel
           responsive={responsive}
           removeArrowOnDeviceType={[

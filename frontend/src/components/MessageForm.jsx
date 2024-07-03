@@ -78,7 +78,31 @@ const MessageForm = () => {
           </div>
         </form>
         <img src="/Vector.png" alt="vector" />
+        <div>
+          <div className="moreinfo">
+            Dr. Pratima Gupta (Director & Obgy Consultant)
+          </div>
+          <div className="moreinfo">
+            Dr. Anand Gupta (Ortho Consultant)
+          </div>
+          <div className="moreinfo">
+            Dr. Anirudh Tiwari (Gastro Consultant)
+          </div>
+          <div className="moreinfo">
+            Dr. Navodita Gupta (Derma Consultant)
+          </div>
+          <div className="moreinfo">
+            Dr. Eishan Gupta (M.S. Surgery Trainee)
+          </div>
+          <div className="moreinfo">
+            Dr. Jatan Gupta (MBBS Std)
+          </div>
+          <div className="moreinfo">
+            Dr. Ujjwal Gupta (MBBS Std)
+          </div>
+        </div>
       </div>
+
     </>
   );
 };

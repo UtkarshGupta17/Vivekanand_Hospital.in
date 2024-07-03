@@ -6,8 +6,9 @@ const Appointment = () => {
   return (
     <>
       <Hero
-        title={"Schedule Your Appointment | Vivekanand Hospital"}
+        title={"Schedule Your Appointment (Online Consultation Available)"}
         imageUrl={"/signin.png"}
+        info={"To schedule an appointment, please log in and complete the form below. Our management team will contact you promptly. Both online and offline appointments are available."}
       />
       <AppointmentForm/>
     </>

@@ -21,11 +21,11 @@ const AppointmentForm = () => {
     "Obs & Gynaecology",
     "Orthopedics",
     "General Surgery",
-    "Urosurgery",
-    "Pediatrics",
+    // "Urosurgery",
+    // "Pediatrics",
     "Dermatology",
     "Gastroenterology",
-    "Physiotherapy",
+    // "Physiotherapy",
   ];
 
   const [doctors, setDoctors] = useState([]);
@@ -181,7 +181,7 @@ const AppointmentForm = () => {
             rows="10"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
-            placeholder="Address"
+            placeholder="Write a message"
           />
           <div
             style={{

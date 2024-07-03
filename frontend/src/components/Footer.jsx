@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             <div>
               <FaLocationArrow />
-              <span>Agra , Uttar Pradesh</span>
+              <span>Balkeshwar Agra , Uttar Pradesh</span>
             </div>
 
           </div>
