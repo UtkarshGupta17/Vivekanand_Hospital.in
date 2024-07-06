@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     try {
-      const res = await axios.get("http://localhost:4000/api/v1/user/patient/logout", {
+      const res = await axios.get("https://vivekanand-hospital-backend-2.onrender.com/api/v1/user/patient/logout", {
         withCredentials: true,
       });
       toast.success(res.data.message);
